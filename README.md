@@ -15,14 +15,27 @@ Design: [Coming Soon](https://cdn.discordapp.com/attachments/648536139677958156/
 
 ## Project features
 
-- Github pages
-- png images
-- responsive
-- animations
-- javascript
-- time left clock
-- progress bar
-- form
+- repetitive content is generated/rendered
+- NodeJS
+- file system for data storage
+
+## Project pages structure
+
+### Public pages
+
+- home
+- about
+- 404
+- login
+- register
+- logout
+
+### Protected pages
+
+- admin/services
+- admin/add-service
+- admin/edit-service
+- admin/service-deleted
 
 ## Authors
 
