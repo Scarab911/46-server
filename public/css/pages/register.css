@@ -1,0 +1,20 @@
+/* base */
+@import '../base/reset.css';
+@import '../base/layout.css';
+/* 3rd-party */
+/* components */
+@import '../components/header.css';
+@import '../components/form.css';
+@import '../components/footer.css';
+
+/* CUSTOM STYLE BELOW THIS COMMENT LINE */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+h2 {
+  width: 100%;
+}

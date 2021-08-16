@@ -1,0 +1,25 @@
+@import '../base/reset.css';
+@import '../base/layout.css';
+
+/* 3rd party*/
+
+/*Components*/
+
+/* CUSTOM STYLE BELOW THIS COMMENT LINE */
+body {
+  background-color: aqua;
+}
+div {
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 40%;
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+  width: 100%;
+}
+div p {
+  font-size: 32px;
+  width: 100%;
+}
