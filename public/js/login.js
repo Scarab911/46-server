@@ -40,7 +40,7 @@ function submitFormInfo(e) {
     ajax({
         method: 'POST',
         headers: {},
-        endpoint: 'api/users',
+        endpoint: 'api/token',
         data: { email, password: pass }
     }, responseAction);
 }
@@ -48,13 +48,15 @@ function submitFormInfo(e) {
 function responseAction(response) {
     try {
         const responseObject = JSON.parse(response);
-        // {error: "Message"}
-        // {success: "Message"}
-        const keys = Object.keys(responseObject);
-        // ['error']
-        // ['success']
-        const key = keys[0];
-        showMessage(key, responseObject[key]);
+        if (responseObject.error) {
+            localStorage.removeItem('login-token');
+            showMessage('error', responseObject.error);
+        }
+        localStorage.setItem('login-token', responseObject.token);
+        showMessage('success', 'Token gautas ;)');
+        setTimeout(() => {
+            location.href = '/admin';
+        }, 2000)
     } catch (error) {
         showMessage('error', 'Serverio klaida!');
     }

@@ -32,4 +32,5 @@ function ajax(request, callback) {
         xhttp.send(JSON.stringify(data));
     }
 }
-export { ajax };
+
+export { ajax }

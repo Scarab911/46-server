@@ -3,15 +3,11 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Coming Soon
+# Coming soon
 
-Paulius B. server creation project for learning\_
+_28 group project_
 
-This project is for learning porpuses only. Thank you for your visit!
-
-Site published [here](https://scarab911.github.io/12-coming-sooon/)
-
-Design: [Coming Soon](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
+This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
 ## Project features
 
@@ -39,4 +35,4 @@ Design: [Coming Soon](https://cdn.discordapp.com/attachments/648536139677958156/
 
 ## Authors
 
-Paulius B. [GitHub](https://github.com/Scarab911)
+[Rimantas](https://github.com/belauzas)
