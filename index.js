@@ -1,13 +1,13 @@
-const server = require('./lib/server');
+const server = require('./lib/server')
 
 const app = {}
 
 app.init = () => {
-    // paruosti reikiamus direktorijas
+    //paruosti reikiamas direktorijas
 
-    // paruosti reikiamus failus
+    //paruosti reikiamas failus
 
-    // inicijuojame serveri
+    //paleisti serveri
     server.init();
 }
 
