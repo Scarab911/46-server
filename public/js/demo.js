@@ -1,1 +1,1 @@
-console.log('this is demo JS print...👺');
+('this is demo JS print...👺');
